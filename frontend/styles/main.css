@@ -1,0 +1,537 @@
+body {
+  background-color: #EFFCFF;
+  font-family: 'Playfair Display', serif;
+  color: #206565;
+}
+
+.navbar-brand img {
+  max-height: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #94DAEA;
+  font-family: 'Assistan', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #94DAEA !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c6f5ff;
+}
+
+header {
+  padding: 300px 0 165px;
+  margin-top: -300px;
+  background-color: #fdfdfd;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23effcff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+header h1,
+header p {
+  color: #206565;
+}
+
+header h1 {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #206565;
+  line-height: 50px;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+header img {
+  width: 100%;
+}
+
+.section-stats {
+  margin-top: -75px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background: rgba(255, 255, 255, 0.99);
+}
+
+.section-stats h2 {
+  margin-top: 5px;
+  font-family: "Signika", serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.section-stats p {
+  font-family: "Signika", serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #206565;
+  margin-top: -10px;
+}
+
+.section-about-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.53)), to(rgba(252, 252, 252, 0.83)));
+  background: linear-gradient(rgba(255, 255, 255, 0.53) 0%, rgba(252, 252, 252, 0.83) 100%);
+  padding-top: 170px;
+  min-height: 506px;
+  margin-top: -60px;
+}
+
+.section-about-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-about-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section-about {
+  margin-top: -150px;
+  padding-bottom: 50px;
+}
+
+.section-about .card-about {
+  background: #effcff;
+  border: 0;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-about .card-about .about-content {
+  min-height: 240px;
+}
+
+.section-about .card-about h3 {
+  margin-top: -10px;
+  font-family: 'signika', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #206565;
+}
+
+.section-about .card-about p {
+  margin-top: -10px;
+  font-family: 'Assistant', serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #206565;
+}
+
+.section-about .card-about hr {
+  margin-top: -10px;
+  border: 3px solid #f8feff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section-services-heading {
+  padding-top: 260px;
+  min-height: 506px;
+  margin-top: -210px;
+  background-color: #effcff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.section-services-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-services-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.services-content {
+  margin-top: -100px;
+  background-color: #effcff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.services-content .content h1 {
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.services-content .content h2 {
+  font-family: 'Assistan', serif;
+  font-weight: lighter;
+  font-size: 21px;
+}
+
+.section-pricing-heading {
+  background-color: #effcff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  padding-top: 150px;
+  min-height: 506px;
+}
+
+.section-pricing-heading h2 {
+  margin-top: -60px;
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-pricing-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section-pricing-content {
+  margin-top: -300px;
+  margin-bottom: 100px;
+}
+
+.section-pricing-content .pricing .tipe h2 {
+  text-shadow: 1px 1px 1px #e9e9e9;
+  font-family: 'Signika';
+  font-size: 25px;
+}
+
+.section-pricing-content .pricing .tipe p {
+  margin-top: -10px;
+  font-family: 'Signika';
+  font-weight: 300;
+  color: #a9a9a9;
+  font-size: 14px;
+}
+
+.section-pricing-content .pricing .judul {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.53)), to(rgba(252, 252, 252, 0.83)));
+  background: linear-gradient(rgba(255, 255, 255, 0.53) 0%, rgba(252, 252, 252, 0.83) 100%);
+}
+
+.section-pricing-content .pricing .judul h2 {
+  text-shadow: 1px 1px 1px #e9e9e9;
+  font-family: 'Signika', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-pricing-content .pricing .judul h2 sup {
+  font-size: 19px;
+}
+
+.section-pricing-content .pricing .judul p {
+  margin-top: -12px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.section-pricing-content .pricing .card-pricing {
+  margin-top: -16px;
+  border: 0;
+  border-radius: 0;
+}
+
+.section-pricing-content .pricing .card-pricing p {
+  font-family: 'Assistan', serif;
+}
+
+.section-pricing-content .pricing .card-pricing hr {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.section-pricing-content .pricing .join-container {
+  margin-top: -16px;
+}
+
+.section-pricing-content .pricing .join-container .btn-pricing {
+  font-family: 'Signika';
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.53)), to(rgba(252, 252, 252, 0.83)));
+  background: linear-gradient(rgba(255, 255, 255, 0.53) 0%, rgba(252, 252, 252, 0.83) 100%);
+  border-radius: 0;
+}
+
+.section-pricing-content .pricing .join-container .btn-pricing:hover {
+  background-color: #effcff;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  color: #5de1ff;
+}
+
+.section-portfolio-heading {
+  padding-top: 60px;
+  min-height: 506px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.53)), to(rgba(252, 252, 252, 0.83)));
+  background: linear-gradient(rgba(255, 255, 255, 0.53) 0%, rgba(252, 252, 252, 0.83) 100%);
+}
+
+.section-portfolio-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-portfolio-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.card-gallery {
+  margin-bottom: 100px;
+  background-color: #effcff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  border: 0;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  margin-top: -20px;
+  padding: 30px 30px 15px 30px;
+}
+
+.card-gallery .gallery .xzoom-container {
+  display: block;
+}
+
+.card-gallery .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.card-gallery .gallery .xzoom-container .xactive {
+  border: 6px solid #1a4c93;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-testimonial-heading {
+  padding-top: 60px;
+  min-height: 306px;
+  background-color: #effcff;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-testimonial-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section-testimonial-heading .col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+
+.section-testimonial-heading .carousel {
+  margin: 50px auto;
+  padding: 0 60px;
+}
+
+.section-testimonial-heading .carousel-item {
+  color: #206565;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.section-testimonial-heading .carousel .item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.section-testimonial-heading .carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.section-testimonial-heading .carousel .testimonial {
+  padding: 30px 0 10px;
+}
+
+.section-testimonial-heading .carousel .overview b {
+  text-transform: uppercase;
+  font-family: 'Signika', serif;
+  color: #206565;
+}
+
+.section-testimonial-heading .carousel .carousel-control {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  background: none;
+}
+
+.section-testimonial-heading .carousel-control i {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: #206565;
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.section-testimonial-heading .carousel .carousel-indicators {
+  bottom: -40px;
+}
+
+.section-testimonial-heading .carousel-indicators li,
+.section-testimonial-heading .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+
+.section-testimonial-heading .carousel-indicators li {
+  background: #999;
+  border-color: transparent;
+  -webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section-testimonial-heading .carousel-indicators li.active {
+  background: #555;
+  -webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section-faq-heading {
+  padding-top: 60px;
+  min-height: 506px;
+  background-color: #fdfdfd;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23effcff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.section-faq-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-faq-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section-faq-heading .accordion {
+  margin-top: -40px;
+  margin-bottom: 100px;
+}
+
+.section-faq-heading .accordion .card {
+  border: 0;
+}
+
+.section-faq-heading .accordion .card:hover {
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-faq-heading .accordion .card .head {
+  background-color: #effcff;
+  border: 0;
+}
+
+.section-faq-heading .accordion .card .head h2 a {
+  text-decoration: none;
+  color: #206565;
+}
+
+.section-faq-heading .accordion .card .isi {
+  font-size: 16px;
+  font-family: 'Signika', serif;
+  font-weight: lighter;
+}
+
+.section-contact-heading {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfdfd;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23effcff' fill-opacity='1'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.section-contact-heading h2 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section-contact-heading p {
+  font-family: 'Assistan', serif;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section-contact-heading .contact-content {
+  margin-top: -30px;
+}
+
+.section-contact-heading .contact-content .info h4 {
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section-contact-heading .contact-content .info .icon-sosmed {
+  color: #71d1e4;
+}
+
+.section-contact-heading .contact-content p {
+  font-family: 'Assistan', serif;
+  font-size: 20px;
+}
+
+.section-contact-heading .contact-content .form-contact {
+  border: 0;
+  font-family: 'Signika';
+}
+
+.section-contact-heading .contact-content .form-contact:hover {
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-contact-heading .contact-content .btn-contact {
+  background-color: #effcff;
+  font-family: 'Signika';
+}
+
+.section-contact-heading .contact-content .btn-contact:hover {
+  background-color: #effcff;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  color: #5de1ff;
+}
+
+.footer {
+  font-family: 'Signika', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */
